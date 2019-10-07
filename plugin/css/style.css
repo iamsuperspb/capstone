@@ -1,0 +1,319 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.lpu-banner{
+	width: 100%;
+	height: 100px;
+	background-color: #8C0001;
+}
+.lpu-navbar{
+	width: 100%;
+	height: 50px;
+	background-color: #A62D38;
+}
+.data-holder{
+	margin: 20px auto;
+	width: 1000px;
+	height: 800px ;
+	border: 1px solid grey;
+}
+.applicant-header{
+	width: 100%;
+	height: 50px;
+	background-color: #A62D38;
+	color: #fff;
+	box-shadow: 2px 2px grey;
+}
+.applicant-option{
+	margin-top: 20px;
+	display: inline-block;
+	width: 50%;
+	height: 200px;
+	background-color: #A62D38;
+}
+.applicant-option:hover{
+	box-shadow: 5px 5px grey;
+}
+.main-application{
+	width: 900px;
+    margin: 20px auto;
+}
+.footer{
+	padding: 7px 0px;
+    text-align: center;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+	background: #A62D38;
+}
+.footer footer{
+	margin-top: 20px;
+}
+.college-header{
+	width: 100%;
+	height: 100px;
+	background-color: #A62D38;
+	box-shadow: 2px 2px grey;
+}
+.lbl{
+	border-bottom: 1px solid;
+}
+.header{
+	position: fixed;
+	height: 55px;
+	width: 100%;
+	background-color: #a62d38;
+	border-bottom: 1px solid #772028;
+	z-index: 4;
+}
+.header-brand{
+	height: 100%;
+	width: 200px;;
+	border-right: 1px solid #772028;
+}
+.header-logo {
+	margin-top: 10px;
+	width: 100%;
+	height: 70%;
+}
+.side-nav{
+	position: fixed;
+	width: 100%;
+	background-color: #a62d38;
+	height: 100vh;
+	z-index: 3;
+	padding-top: 44px;
+}
+.side-nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.side-nav ul li{
+	padding: 20px 10px;
+	border-bottom: 1px solid #772028;
+
+}
+.terms-agreement{
+	width: 55%;
+	height: 300px;
+	border: 1px solid grey;
+	text-align: left;
+}
+.terms-header{
+ 	background-color: #A62D38;
+ 	color: #fff;
+}
+.applicant-topnav button{
+	background: #a62d38;
+	color: white;
+	border: 1px solid #a62d38;
+	height: 40px;
+	width: 100px;
+}
+.applicant-topnav button:hover{
+	background: #6B1D24;
+	color: white;
+}
+.applicant-topnav button.active{
+	background: white;
+	color:#a62d38;
+}
+.side-nav ul li.active{
+	background-color: #772028;
+	border-right: 12px solid #AD6523;
+	color: white;
+}
+.side-nav ul li:hover{
+	background: #772028;
+	/*border-right: 12px solid #AD6523;*/
+	animation-delay: 2s;
+}
+.side-nav ul a li{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+}
+.side-nav ul li i{
+	color: #fff;
+}
+.main-content{
+	padding-top: 50px;
+	padding-left: 15px;
+}
+.overview{
+	background: #fff;
+	border: 2px solid #a62d38;
+	width: 98%;
+	height: 300px;
+	box-shadow: 1px 1px grey;
+}
+.overview-header{
+	background: #a62d38;
+  	height: 40px;
+  	font-weight: bold;
+  	color: #fff;
+  	padding-left: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+.applicant-tab ul li.active{
+	color: white;
+}
+.applicant-tab ul li a{
+	text-decoration: none;
+	background-color: #a62d38;
+    color: #fff;
+    font-weight: bold;
+}
+.dashboard{
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 1px 1px grey;
+  text-align: center;
+}
+.admin{
+	background-color: #EF6A3A;
+	color: #fff;
+}
+.college-applicant{
+	background-color: #fff;
+	border: 2px solid #a62d38;
+	display: inline-block;
+	box-shadow: 4px 4px 4px grey;
+	color: #a62d38;
+}
+.usermanage{
+	height: 150px;
+	margin-top: 50px;
+	border-bottom: 1px solid #772028;
+	color: #fff;
+}
+.usersettings{
+	padding-top:10px;
+	padding: 1px;
+	border:none; 
+	background: none; 
+	color: white;
+}
+.displayphoto{
+	width: 50px;
+	height: 50px;
+}
+.application-holder{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	box-shadow: 1px 1px 1px 1px black;
+}
+.personal-info{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 40px;
+	background-color: #A62D38;
+	color: #fff;
+}
+.course-info{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 40px;
+	background-color: #A62D38;
+	color: #fff;	
+}
+.submit-applicantbtn{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;	
+	width: 70%;
+	background-color: #A62D38;
+	color: #fff;
+	border: none;
+}
+.submit-applicantbtn:hover{
+	background-color: #772028;
+	color: #fff;
+}
+.count-sched{
+	margin-top: 50px;
+	width: 99%;
+	height: 60px;
+	background-color: #A62D38;
+	color:#fff;
+}
+.logout-btn{
+	background-color: #A62D38;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+}
+.logout-btn:hover{
+	background-color: #6B1D24;
+}
+@media screen and (min-width: 600px) {
+	.header-brand{
+		width: 80px;
+	}
+	.side-nav{
+		width: 80px;
+	}
+	.side-nav ul li span:nth-child(2){
+		display: none;
+	}
+	.side-nav ul li i {
+		font-size: 26px;
+	}
+	.usermanage span:nth-child(2){
+		display: none;
+	}
+	.main-content{
+		margin-left: 80px;
+	}
+	.terms-ageement{
+		height: 1000px;
+	}
+	.overview{
+		height: 1000px;
+	}
+}
+ @media screen and (min-width: 1000px){
+ 	.header-brand{
+		width: 200px;
+	}
+ 	.side-nav{
+ 		width: 200px;
+ 	}
+ 	.side-nav ul li{
+ 		text-align: left;
+ 	}
+ 	.side-nav ul li span:nth-child(2){
+ 		display: inline;
+ 	}
+ 	.side-nav ul li i{
+ 		font-size: 16px;
+ 	}
+ 	.usermanage span:nth-child(2){
+		display: inline;
+	}
+ 	.main-content{
+ 		margin-left: 200px;
+ 	}
+ 	.terms-ageement{
+		height: 300px;
+	}
+ 	.overview{
+		height: 300px;
+	}
+ }
