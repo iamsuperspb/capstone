@@ -1,2 +1,1 @@
-# capstone
-# native php language
+# FOR CAPSTONE REFERENCE ONLY
